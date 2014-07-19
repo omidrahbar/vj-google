@@ -127,6 +127,24 @@
     clear: both;
 }
 
+/* Hover Text Color */
+#sd:hover {color: #FF9900; font-weight:bold;}
+#sv:hover {color: #FF0034; font-weight:bold;}
+#md:hover {color: white; font-weight:bold;}
+#sci:hover {color: #FF7700; font-weight:bold;}
+
+#gm:hover {color: #D54433; font-weight:bold;}
+#tw:hover {color: #55ACEE; font-weight:bold;}
+#fb:hover {color: #46629E; font-weight:bold;}
+#li:hover {color: #1C86BD; font-weight:bold;}
+#gh:hover {color: #AB5C51; font-weight:bold;}
+
+/* Font Awesome Logos */
+
+p.resume {
+    font-size: 14px !important;
+}
+
 html {
     font-family: sans-serif;
     -ms-text-size-adjust: 100%;
@@ -163,12 +181,12 @@ strong {
 }
 
 body {
-    background: #fafafa;
+    background: black;
     font-family: "RobotoDraft",sans-serif;
     font-weight: 400;
     font-size: 14px;
     line-height: 24px;
-    color: #777;
+    color: white;
     margin: 0;
     padding: 0;
     width: 100%;
@@ -299,6 +317,9 @@ header h1 {
 #subtitle p{
 	color: white;
 	font-size: 18px;
+    line-height: 1;
+    padding-top: 8%;
+    position: relative;
 }
 
 .intro.section-wrapper a:hover{
@@ -336,15 +357,25 @@ header h1 {
 }
 
 .intro p {
-    color: #6c6c6c;
+    color: white;
     font-size: 1.429em;
     font-weight: 400;
     line-height: 1.8;
 }
 
+.subhead {
+    font-weight: bold !important;
+    color: #03A9F4 !important;
+}
+
+p.bio {
+    font-size: 14px !important;
+}
+
 .intro .span-9 {
     float: none;
     width: 100%;
+    margin-top: -5%;
 }
 
 .resources {
@@ -746,7 +777,7 @@ header h1 {
 }
 
 footer {
-    background: #444;
+    background: #474747;
     height: 125px;
 }
 
